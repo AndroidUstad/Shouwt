@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Colibri</string>
+    <string name="facebook_app_id">372454075014867</string>
+    <string name="facebook_client_token">YOUR_CLIENT_ACCESS_TOKEN</string>
+    <string name="default_notification_channel_id">colibri</string>
+</resources>
