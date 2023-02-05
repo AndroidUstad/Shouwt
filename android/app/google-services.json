@@ -1,42 +1,49 @@
 {
   "project_info": {
-    "project_number": "343267882113",
-    "project_id": "colibri-f9bfc",
-    "storage_bucket": "colibri-f9bfc.appspot.com"
+    "project_number": "483143095366",
+    "project_id": "shouwt-a57ee",
+    "storage_bucket": "shouwt-a57ee.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:343267882113:android:e99f48cc64b12725f90980",
+        "mobilesdk_app_id": "1:483143095366:android:9e630d17656742997aa647",
         "android_client_info": {
-          "package_name": "com.skycap.colibri"
+          "package_name": "com.shouwt.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "343267882113-g7vhns7a36bl4lq6auluvvmmhnbm0r56.apps.googleusercontent.com",
+          "client_id": "483143095366-9dc6uggmqcmksr6uk2fmdk398agdqu51.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.skycap.colibri",
-            "certificate_hash": "a4331dadeaf3317dfd752d73fee8f0f01dd15cfd"
+            "package_name": "com.shouwt.app",
+            "certificate_hash": "ecff2eee937ca0d818610934254751d21fb19f1e"
           }
         },
         {
-          "client_id": "343267882113-9sltrs20pd21kive4q74lot4451lah80.apps.googleusercontent.com",
+          "client_id": "483143095366-cv6e3rkgvr52jnd4gtpmpcse6oii9ak0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCczyNxD160FSUo8rS7MlGnoj7B5A1-FYg"
+          "current_key": "AIzaSyBtXsMcX8COJ_AYXzgHjhMKDvl7yLRtgng"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "343267882113-9sltrs20pd21kive4q74lot4451lah80.apps.googleusercontent.com",
+              "client_id": "483143095366-cv6e3rkgvr52jnd4gtpmpcse6oii9ak0.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "483143095366-2t833rieg06j7f0ss2pngbkafsvesmu0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.shouwt.com"
+              }
             }
           ]
         }

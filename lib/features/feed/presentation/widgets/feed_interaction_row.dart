@@ -24,6 +24,7 @@ class FeedInteractionRow extends StatelessWidget {
   final Function? onLikeTap;
   final Function? onTapRepost;
   final Function(bool)? replyCountIncreased;
+
   @override
   Widget build(BuildContext context) {
     return [
@@ -117,6 +118,9 @@ class FeedInteractionRow extends StatelessWidget {
             ],
           ),
         ),
+        AppIcons.donationIcon().onTapWidget(() {
+          openDialog(context);
+        }),
         InkWell(
           onTap: () {
             onTapRepost!();
@@ -176,5 +180,21 @@ class FeedInteractionRow extends StatelessWidget {
     ].toRow(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceEvenly);
+  }
+
+  Future openDialog(ctxt) => showDialog(
+      context: ctxt,
+      builder: (context) => AlertDialog(
+            title: Text('Donate'),
+            content: TextField(
+              decoration: InputDecoration(hintText: 'Amount'),
+            ),
+            actions: [
+              TextButton(onPressed: (){donate(context);}, child: Text('Donate',style: TextStyle(color: Color(0xFF2FBF63),),))
+            ],
+          ));
+
+  donate(context) {
+    Navigator.of(context).pop();
   }
 }

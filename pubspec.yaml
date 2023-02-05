@@ -4,7 +4,7 @@ description: Colibri
 
 publish_to: 'none' 
 
-version: 1.2.0+33
+version: 1.0.0+1
 
 environment:
   sdk: ">=2.15.1 <3.0.0"
@@ -84,8 +84,8 @@ dependencies:
   #Discontinued
   file_utils: ^1.0.1
   keyboard_actions: ^3.4.7
-  firebase_messaging: ^13.0.0
-  firebase_core: ^1.21.1
+  firebase_messaging: ^14.2.1
+  firebase_core: ^2.4.1
   # TODO Return this after fixing error
   flutter_awesome_select: ^6.5.0
   remove_emoji: ^0.0.6 

@@ -35,6 +35,7 @@ class Images {
   static const like = "$base/like.svg";
   static const heart = "$base/heart.svg";
   static const filledHeart = "$base/heart-color.svg";
+  static const donation = "$base/donation.svg";
   static const repost = "$base/refresh_double.svg";
   static const share = "$base/share.svg";
   static const people = "$base/people.svg";

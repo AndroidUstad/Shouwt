@@ -18,6 +18,9 @@ class AC {
   static double? blockSizeHorizontal;
   static double? blockSizeVertical;
 
+  static const double padding =20;
+  static const double avatarRadius =45;
+
   static var loginResponse;
 
   static getInstance() async {

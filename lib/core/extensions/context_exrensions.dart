@@ -112,7 +112,7 @@ extension ContextExtension on BuildContext {
       builder: (_) => AlertDialog(
         title: Text('Are you  sure?',
             style: TextStyle(color: isDark ? Colors.white : null)),
-        content: new Text('Do you want to exit Colibri',
+        content: new Text('Do you want to exit Shouwt.',
             style: TextStyle(color: isDark ? Colors.white : null)),
         actions: <Widget>[
           TextButton(

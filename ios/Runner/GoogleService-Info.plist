@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>343267882113-mvb0iiirinapna57cm20udl8gvdg2qt7.apps.googleusercontent.com</string>
+	<string>483143095366-2t833rieg06j7f0ss2pngbkafsvesmu0.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.343267882113-mvb0iiirinapna57cm20udl8gvdg2qt7</string>
+	<string>com.googleusercontent.apps.483143095366-2t833rieg06j7f0ss2pngbkafsvesmu0</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>343267882113-g7vhns7a36bl4lq6auluvvmmhnbm0r56.apps.googleusercontent.com</string>
+	<string>483143095366-9dc6uggmqcmksr6uk2fmdk398agdqu51.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDw6YFA9qTuI2zZm1vbI5whyZQ6yiZjV3s</string>
+	<string>AIzaSyAUO_FaX6GRVewNpH50LGF8B853SHqt5Y4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>343267882113</string>
+	<string>483143095366</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.skycap.colibriApp</string>
+	<string>app.shouwt.com</string>
 	<key>PROJECT_ID</key>
-	<string>colibri-f9bfc</string>
+	<string>shouwt-a57ee</string>
 	<key>STORAGE_BUCKET</key>
-	<string>colibri-f9bfc.appspot.com</string>
+	<string>shouwt-a57ee.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:343267882113:ios:2e5a1398263f9219f90980</string>
+	<string>1:483143095366:ios:6707abb68a5839bd7aa647</string>
 </dict>
 </plist>

@@ -115,6 +115,11 @@ class _InteractionRowState extends State<InteractionRow> {
             ],
           ),
         ),
+        AppIcons.donationIcon(color: Colors.white, height: 18, width: 18)
+            .toPadding(0)
+            .onTapWidget(() {
+          openDialog(context);
+        }),
         InkWell(
           onTap: () {
             widget.onClickAction(2);
@@ -167,5 +172,21 @@ class _InteractionRowState extends State<InteractionRow> {
         })
       ],
     );
+  }
+
+  Future openDialog(ctxt) => showDialog(
+      context: ctxt,
+      builder: (context) => AlertDialog(
+        title: Text('Donate'),
+        content: TextField(
+          decoration: InputDecoration(hintText: 'Amount'),
+        ),
+        actions: [
+          TextButton(onPressed: (){donate(context);}, child: Text('Donate',style: TextStyle(color: Color(0xFF2FBF63),),))
+        ],
+      ));
+
+  donate(context) {
+    Navigator.of(context).pop();
   }
 }

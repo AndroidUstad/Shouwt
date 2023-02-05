@@ -2,8 +2,8 @@ import '../translations/locale_keys.g.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 class Strings {
-  static const String baseUrl = "https://www.csm-demo.ru/mobile_api/";
-  static const String baseMediaUrl = "https://www.csm-demo.ru/";
+  static const String baseUrl = "https://shouwt.com/mobile_api/";
+  static const String baseMediaUrl = "https://shouwt.com/";
   static final welcome = LocaleKeys.welcome.tr();
   static final seeWhats = "See What's happening in the \n world now!";
   static final login = LocaleKeys.login.tr();

@@ -147,7 +147,7 @@ class _MyAppState extends State<MyApp> {
           child: ScreenUtilInit(
             builder: (_, __) {
               return MaterialApp.router(
-                title: 'Colibri',
+                title: 'Shouwt',
                 supportedLocales: context.supportedLocales,
                 debugShowCheckedModeBanner: false,
                 localizationsDelegates: context.localizationDelegates,

@@ -153,6 +153,16 @@ class AppIcons {
         width: width,
         color: color,
       );
+  static Widget donationIcon(
+      {Color color = AppColors.greyText,
+        num height = 16,
+        num width = 16}) =>
+      Images.donation.toSvg(
+        height: height,
+        width: width,
+        color: color,
+      );
+
   static Widget clearChatIcon = Images.clearChat.toSvg(
     color: isDark ? Colors.white : Colors.black38,
     height: 23.h,
