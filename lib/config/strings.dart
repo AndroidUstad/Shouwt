@@ -35,13 +35,17 @@ class Strings {
   static final dontHaveAnAccount = LocaleKeys.don_t_have_an_account.tr();
   static final affiliatesStr = LocaleKeys.affiliates.tr();
   static final ads = LocaleKeys.active_ads.tr();
+  static final freeSpeechTokens = LocaleKeys.freeTokens.tr();
+  static final earnTokens = LocaleKeys.earnToken.tr();
   static final forgotPassword = LocaleKeys.forgot_your_password.tr();
-  static final termsUrl = "https://www.csm-demo.ru/terms_of_use";
-  static final privacyUrl = "https://www.csm-demo.ru/privacy_policy";
-  static final aboutUs = "https://www.csm-demo.ru/about_us";
-  static final cookiesPolicy = "https://www.csm-demo.ru/cookies_policy";
-  static final affiliates = "https://www.csm-demo.ru/affiliates";
-  static final adsShow = "https://www.csm-demo.ru/ads";
+  static final termsUrl = "https://shouwt.com/terms_of_use";
+  static final privacyUrl = "https://shouwt.com/privacy_policy";
+  static final aboutUs = "https://shouwt.com/about_us";
+  static final cookiesPolicy = "https://shouwt.com/cookies_policy";
+  static final affiliates = "https://shouwt.com/affiliates";
+  static final adsShow = "https://shouwt.com/ads";
+  static final earnTokeLink = "https://shouwt.com/themes/default/FST/src/source.php#";
+  static final freeSpeechTokenLink = "https://shouwt.com/themes/default/FST/src/source.php";
 
   static var giphyApiKey = 'FAbXVBBRFv47ENKctsjc0oz1fqdsq0Kl';
 

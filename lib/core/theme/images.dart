@@ -51,6 +51,8 @@ class Images {
   static const verified = "$base/verified.svg";
   static const signOut = "$base/sign_out.svg";
   static const advertising = "$base/ads.svg";
+  static const cash = "$base/cash.svg";
+  static const bitcoin = "$base/bitcoin.svg";
   static const drawer_affiliates = "$base/affiliates.svg";
   static const drawerWallet = "$base/drawer_wallet.svg";
 

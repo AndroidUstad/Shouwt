@@ -200,6 +200,10 @@ class AppIcons {
   static Widget signOut({Color? color}) => Images.signOut.toSvg(color: color);
   static Widget drawerAdvertising({Color? color}) =>
       Images.advertising.toSvg(color: color);
+  static Widget drawerEarnTokens({Color? color}) =>
+      Images.cash.toSvg(color: color);
+  static Widget drawerFreeSpeechTokens({Color? color}) =>
+      Images.bitcoin.toSvg(color: color);
   static Widget drawerAffiliates({Color? color}) =>
       Images.drawer_affiliates.toSvg(color: isDark ? Colors.white : null);
   static Widget drawerWallet = Images.drawerWallet.toSvg();

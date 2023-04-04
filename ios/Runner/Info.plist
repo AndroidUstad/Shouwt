@@ -44,7 +44,7 @@
 	<key>FacebookClientToken</key>
 	<string>[CLIENT_TOKEN]</string>
 	<key>FacebookDisplayName</key>
-	<string>Colibri</string>
+	<string>Shouwt</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>instagram-stories</string>

@@ -143,7 +143,8 @@ class _PostPaginationWidgetState extends State<PostPaginationWidget> {
                   closedElevation: 0.0,
                   closedColor: isDark ? AppColors.appBlackColor : Colors.white,
                   openColor: isDark ? AppColors.appBlackColor : Colors.white,
-                  closedBuilder: (c, opencontainer) => PostItem(
+                  closedBuilder: (c, opencontainer) =>
+                  PostItem(
                     isComeHome: widget.isComeHome,
                     postEntity: item,
                     onLikeTap: () {

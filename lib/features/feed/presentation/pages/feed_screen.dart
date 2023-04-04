@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:animations/animations.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:colibri/features/stories/presentation/bloc/stories_bloc.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../../../../core/root_widget.dart';
 import '../widgets/feed_leading_profile_avatar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -73,6 +74,7 @@ class _FeedScreenState extends State<FeedScreen> {
     blurDotDataGet();
     updateData();
     checkIsKeyBoardShow();
+
   }
 
   bool isCalled = false;
@@ -107,6 +109,11 @@ class _FeedScreenState extends State<FeedScreen> {
 
   loginUserData() async {
     loginResponseFeed = await localDataSource!.getUserData();
+    SharedPreferences.getInstance().then((prefs) {
+      prefs.setString('myKey', loginResponseFeed!.data!.user!.userId.toString());
+      prefs.setString('username', loginResponseFeed!.data!.user!.userName.toString());
+      prefs.setString('user_id', loginResponseFeed!.data!.user!.email.toString());
+    });
   }
 
   blurDotDataGet() {
@@ -201,8 +208,7 @@ class _FeedScreenState extends State<FeedScreen> {
                                     ],
                                   ),
                                 );
-                              return GetDrawerMenu(
-                                  profileEntity: snapshot.data);
+                              return GetDrawerMenu(profileEntity: snapshot.data);
                             },
                           ),
                         ),

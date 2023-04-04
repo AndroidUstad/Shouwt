@@ -509,6 +509,8 @@ abstract class LocaleKeys {
   static const reset_my_password = 'reset_my_password';
   static const new_word = 'new';
   static const active_ads = 'active_ads';
+  static const earnToken = 'Earn Token';
+  static const freeTokens = 'Free Speech Tokens';
   static const archive = 'archive';
   static const active = 'active';
   static const inactive = 'inactive';

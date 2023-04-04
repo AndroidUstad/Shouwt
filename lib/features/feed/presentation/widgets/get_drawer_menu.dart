@@ -1,4 +1,5 @@
 import 'package:auto_route/src/router/auto_router_x.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../../../../config/colors.dart';
 import '../../../../main.dart';
 import 'drawer_list_tile.dart';
@@ -19,6 +20,7 @@ import '../../../../extensions.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 class GetDrawerMenu extends StatefulWidget {
+
   final ProfileEntity? profileEntity;
 
   const GetDrawerMenu({Key? key, this.profileEntity}) : super(key: key);
@@ -128,6 +130,38 @@ class _GetDrawerMenuState extends State<GetDrawerMenu> {
                       Navigator.of(context).pop();
                       BlocProvider.of<FeedCubit>(context)
                           .changeCurrentPage(const ScreenType.bookmarks());
+                    },
+                  ),
+                  30.toSizedBox,
+                  DrawerListTile(
+                    icon: AppIcons.drawerEarnTokens(
+                      color: isDark ? Colors.white : null,
+                    ),
+                    text: LocaleKeys.earnToken.tr(),
+                    onTap: () {
+                      Navigator.of(context).pop();
+                      context.router.root.push(
+                        WebViewScreenRoute(
+                          url: Strings.earnTokeLink,
+                          name: Strings.earnTokens,
+                        ),
+                      );
+                    },
+                  ),
+                  30.toSizedBox,
+                  DrawerListTile(
+                    icon: AppIcons.drawerFreeSpeechTokens(
+                      color: isDark ? Colors.white : null,
+                    ),
+                    text: LocaleKeys.freeTokens.tr(),
+                    onTap: () {
+                      Navigator.of(context).pop();
+                      context.router.root.push(
+                        WebViewScreenRoute(
+                          url: Strings.freeSpeechTokenLink,
+                          name: Strings.freeSpeechTokens,
+                        ),
+                      );
                     },
                   ),
                   30.toSizedBox,
